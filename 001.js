@@ -6,6 +6,7 @@ let sortArr = [];
 let sortObj = {};
 
 for (let i = 0; i < array.length; i++) {      //create object with word and occurrence count
+    // very nice code!
     if (!obj.hasOwnProperty(array[i])) {
         obj[array[i]] = 1;
     } else {
